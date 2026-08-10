@@ -10,7 +10,7 @@ Open an issue with:
 
 A skill gets in if it beats something already listed, not if it merely exists. The catalog is short on purpose — a list of forty skills is a list nobody installs.
 
-A skill goes into the `auto` sections (and into `install.sh`) only when it has a real upstream repo with a license. Everything else lands in [Unattributed](CATALOG.md#unattributed).
+A skill goes into the `auto` sections (and into `install.sh`) only when it has a canonical upstream repo and a named author. Where that repo states no license, the catalog says so out loud and `install.sh` still fetches from upstream rather than vendoring a copy. A skill whose author can't be found lands in [Unattributed](CATALOG.md#unattributed) and is never fetched at all.
 
 ## Claiming a skill
 

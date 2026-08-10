@@ -5,7 +5,7 @@
 Every other design skill hands the model one point of view and hopes. This one adds two things nobody else does:
 
 1. **A gate.** Eight checks, each demanding a concrete piece of evidence. One ❌ and the model shows you nothing — it goes back and fixes it first. "I used best practices" is not evidence and scores a ❌.
-2. **A conductor.** It doesn't replace the good design skills that already exist. It calls them — Emil Kowalski's craft skills, Impeccable's 46 detector rules, `ui-ux-pro-max`'s 161 palettes, 21st.dev's real components — and makes them work as one toolkit instead of eight competing opinions.
+2. **A conductor.** It doesn't replace the good design skills that already exist. It calls them — Emil Kowalski's craft skills, Impeccable's 59 detector rules, `ui-ux-pro-max`'s 192 palettes, 21st.dev's real components — and makes them work as one toolkit instead of eight competing opinions.
 
 The taste is borrowed on purpose, from people who are better at their one thing than any single skill could be at all of them. The gate is the part that's mine.
 
@@ -29,6 +29,23 @@ Before the model shows you anything, it fills this table. Completely.
 No item can be marked N/A. Showing you the result *is* the table plus the file — not the other way around.
 
 There's a `4/8` draft mode for when you genuinely want something rough. It only turns on if **you** say "draft" or "rough it in" — the model can't award itself the shortcut, because "this task is small" is how every shortcut starts. Accessibility and mobile-first markup never turn off, in any mode.
+
+## What passing looks like
+
+The shape of the last thing you see before the file — here, for a pricing page:
+
+| # | Item | Verdict | Evidence |
+|---|------|---------|----------|
+| 01 | Point of view, not a template | ✅ | *Instrument.* Reads like a spec sheet, not a sales page — no testimonials, no badges, every figure monospaced |
+| 02 | Typography works | ✅ | Bricolage Grotesque 600 / Instrument Sans 400, five steps at 1.25, JetBrains Mono on the numbers |
+| 03 | Restrained palette | ✅ | `#0D0F14` ground, `#151922` cards, `#E6E9EE` text, `#98A0AE` secondary, `#FF4A17` on the recommended tier and nowhere else |
+| 04 | Hierarchy breathes | ✅ | Recommended tier at 1.15× scale, two others equal weight, FAQ tertiary at 15px |
+| 05 | Images are meaningful | ✅ | No photography — each tier gets a line diagram of what it actually connects to |
+| 06 | Motion whispers | ✅ | 2px card lift over 200ms, digits cross-fade on the monthly/annual toggle, 60ms stagger on first paint |
+| 07 | Mobile is designed, not squeezed | ✅ | At 375px the tiers become a scroll-snap carousel with the recommended one pre-centered, CTA sticky above the safe area |
+| 08 | The invisible is expensive | ✅ | 41 KB CSS, no framework, interactive at 0.9s, 7.2:1 body / 4.8:1 accent, full keyboard path, sectioned semantics |
+
+One ❌ in that column and you would be seeing none of it — just the model going back to work.
 
 ## Quick start
 
@@ -74,7 +91,7 @@ Things the model is not allowed to do, ever, without you explicitly asking:
 
 ## Why this repo exists
 
-Good design skills are scattered across GitHub and most people never find them. `emilkowalski/skills` has 27k stars and is still the thing nobody in your feed has installed. Impeccable ships 46 deterministic detector rules that need no API key. Some of the best ones circulate as anonymous copies with the author's name stripped off.
+Good design skills are scattered across GitHub and most people never find them. `emilkowalski/skills` has 28k stars and is still the thing nobody in your feed has installed. Impeccable ships 59 deterministic detector rules that need no API key. Some of the best ones circulate as anonymous copies with the author's name stripped off.
 
 So this repo does three jobs: ship the gate, point at the good stuff, and keep pointing at it as better stuff appears.
 

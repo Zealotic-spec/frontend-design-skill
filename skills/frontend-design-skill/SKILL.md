@@ -94,7 +94,7 @@ Rules:
 ```bash
 npx shadcn@latest add @react-bits/BlurText-TS-TW
 # refresh the catalog:
-python3 react-bits-catalog.py < <(curl -sfL https://reactbits.dev/r/registry.json) > react-bits.md
+curl -sfL https://reactbits.dev/r/registry.json | python3 react-bits-catalog.py > react-bits.md
 ```
 
 **License MIT + Commons Clause:** using them in client sites, including paid ones, is fine. Selling the components themselves (as a template or a library assembled from them) is not.

@@ -47,7 +47,7 @@ while [ $# -gt 0 ]; do
     --force)        FORCE=1 ;;
     --list)         LIST_ONLY=1 ;;
     --dir)          TARGET="${2:?--dir needs a path}"; shift ;;
-    -h|--help)      sed -n '2,20p' "${BASH_SOURCE[0]}" | sed 's/^# \{0,1\}//'; exit 0 ;;
+    -h|--help)      sed -n '2,13p' "${BASH_SOURCE[0]}" | sed 's/^# \{0,1\}//'; exit 0 ;;
     *)              echo "unknown option: $1" >&2; exit 2 ;;
   esac
   shift
@@ -105,7 +105,7 @@ trap 'rm -rf -- "$WORK"' EXIT
 
 echo
 bold "Fetching catalog skills from upstream"
-info "Four shallow clones, ~200 MB of traffic. Give it a few minutes."
+info "Four shallow clones, ~100 MB of traffic. Give it a few minutes."
 
 last_repo=""
 for entry in "${CATALOG_SKILLS[@]}"; do

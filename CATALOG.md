@@ -4,7 +4,7 @@ Every design skill worth installing next to `frontend-design-skill`, with where 
 
 This file is the part that keeps moving. New good design skills appear every week; when one is genuinely better than what's here, it goes in and the weak one goes out. Open an issue with a candidate.
 
-**Attribution policy.** Nothing in this repo is a copy of someone else's skill. The catalog links to sources and [`install.sh`](install.sh) fetches from them, so authors keep their stars, their license and their name. Where a skill's original author could not be verified, it says so — see [Unattributed](#unattributed).
+**Attribution policy.** Nothing in this repo is a copy of someone else's skill. The catalog links to sources and [`install.sh`](install.sh) fetches from them, so authors keep their stars, their license and their name. Where a skill's author or license could not be verified, it says so — here and under [Unattributed](#unattributed).
 
 Legend: **auto** = installed by `install.sh` · **manual** = you install it yourself, source unverified.
 
@@ -12,7 +12,7 @@ Legend: **auto** = installed by `install.sh` · **manual** = you install it your
 
 ## Craft and motion — `emilkowalski/skills`
 
-[github.com/emilkowalski/skills](https://github.com/emilkowalski/skills) · MIT · ⭐27.8k · **auto**
+[github.com/emilkowalski/skills](https://github.com/emilkowalski/skills) · MIT · ⭐27.9k · **auto**
 
 Emil Kowalski is the design engineer behind [Sonner](https://sonner.emilkowal.ski) and [Vaul](https://vaul.emilkowal.ski). This is the single highest-signal source in the catalog, and eight of the skills below come from it.
 
@@ -33,25 +33,27 @@ Emil Kowalski is the design engineer behind [Sonner](https://sonner.emilkowal.sk
 
 | Skill | What it gives you |
 |---|---|
-| `impeccable` | 23 commands (`polish`, `audit`, `critique`, `distill`, `animate`, `bolder`, `quieter`…) plus 46 deterministic detector rules that run with no LLM and no API key. Started from Anthropic's `frontend-design` and went considerably further. Handles live browser iteration. |
+| `impeccable` | 23 commands (`polish`, `audit`, `critique`, `distill`, `animate`, `bolder`, `quieter`…) plus 59 deterministic detector rules that run with no LLM and no API key. Started from Anthropic's `frontend-design` and went considerably further. Handles live browser iteration. |
 
 Install its own way instead if you prefer: `npx impeccable install`, then `/impeccable init`.
 
 ## Design intelligence — `nextlevelbuilder/ui-ux-pro-max-skill`
 
-[github.com/nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) · **auto**
+[github.com/nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) · MIT · **auto**
 
 | Skill | What it gives you |
 |---|---|
-| `ui-ux-pro-max` | A searchable database, not prose: 50+ styles, 161 color palettes, 57 font pairings, 161 product types with reasoning rules, 99 UX guidelines, 25 chart types across 10 stacks. This is where palettes and font pairs come from when the project has no brand kit. |
+| `ui-ux-pro-max` | A searchable database, not prose: 84 styles, 192 color palettes, 74 font pairings, 192 product types with reasoning rules, 98 UX guidelines, 25 chart types across 22 stacks. This is where palettes and font pairs come from when the project has no brand kit. |
 
 ## Stack-specific — `mrgoonie/claudekit-skills`
 
-[github.com/mrgoonie/claudekit-skills](https://github.com/mrgoonie/claudekit-skills) · MIT · **auto**
+[github.com/mrgoonie/claudekit-skills](https://github.com/mrgoonie/claudekit-skills) · **no license stated** · **auto**
 
 | Skill | What it gives you |
 |---|---|
 | `ui-styling` | shadcn/ui + Radix + Tailwind specifics: accessible dialogs, dropdowns, forms and tables, theming, dark mode, consistent styling patterns. Only useful on that stack — on any other, skip it. |
+
+The repo ships no license file, which means the author keeps every right by default. So `install.sh` clones it from upstream onto your machine instead of vendoring a copy here — nothing of theirs is redistributed by this repo, and the skill is yours to use on the same terms as if you had cloned it yourself. [@mrgoonie](https://github.com/mrgoonie): a `LICENSE` would settle this properly, and if you'd rather not be listed at all, open an issue and it comes out.
 
 ## Anthropic built-ins
 
