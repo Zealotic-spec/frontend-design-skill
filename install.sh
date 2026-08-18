@@ -33,6 +33,9 @@ CATALOG_SKILLS=(
   "impeccable|pbakaus/impeccable|plugin/skills/impeccable"
   "ui-ux-pro-max|nextlevelbuilder/ui-ux-pro-max-skill|.claude/skills/ui-ux-pro-max"
   "ui-styling|mrgoonie/claudekit-skills|plugins/web-dev-tools/skills/ui-styling"
+  "design-taste-frontend|Leonxlnx/taste-skill|skills/taste-skill"
+  "high-end-visual-design|Leonxlnx/taste-skill|skills/soft-skill"
+  "minimalist-ui|Leonxlnx/taste-skill|skills/minimalist-skill"
 )
 
 bold()  { printf '\033[1m%s\033[0m\n' "$*"; }
@@ -105,7 +108,7 @@ trap 'rm -rf -- "$WORK"' EXIT
 
 echo
 bold "Fetching catalog skills from upstream"
-info "Four shallow clones, ~100 MB of traffic. Give it a few minutes."
+info "Five shallow clones, ~120 MB of traffic. Give it a few minutes."
 
 last_repo=""
 for entry in "${CATALOG_SKILLS[@]}"; do

@@ -55,6 +55,18 @@ Install its own way instead if you prefer: `npx impeccable install`, then `/impe
 
 The repo ships no license file, which means the author keeps every right by default. So `install.sh` clones it from upstream onto your machine instead of vendoring a copy here — nothing of theirs is redistributed by this repo, and the skill is yours to use on the same terms as if you had cloned it yourself. [@mrgoonie](https://github.com/mrgoonie): a `LICENSE` would settle this properly, and if you'd rather not be listed at all, open an issue and it comes out.
 
+## Taste and premium design — `Leonxlnx/taste-skill`
+
+[github.com/Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) · MIT · ⭐77.6k · **auto**
+
+Anti-slop skills: override common LLM UI defaults (centered heroes, purple gradients, Inter everywhere) with prescriptive, metrics-driven design rules. Three of the six skills in this repo are bundled here; the other three (`redesign-existing-projects`, `industrial-brutalist-ui`, `stitch-design-taste`) are documented under [Unattributed](#unattributed) below pending verification against the same repo.
+
+| Skill | What it gives you |
+|---|---|
+| `design-taste-frontend` | Senior UI/UX engineer persona enforcing metric-based rules (design variance, motion intensity, visual density) so output stops reading as generic AI slop. |
+| `high-end-visual-design` | The exact fonts, spacing, shadows, card structures and animations that make a site feel expensive — and a block list of the defaults that make AI design look cheap. |
+| `minimalist-ui` | Clean editorial interfaces: warm monochrome, typographic contrast, flat bento grids, muted pastels. No gradients, no heavy shadows. |
+
 ## Anthropic built-ins
 
 Shipped with Claude Code, nothing to install.
@@ -77,10 +89,7 @@ They are listed because they are genuinely useful and because listing them is ho
 
 | Skill | Internal `name:` | What it gives you |
 |---|---|---|
-| `taste-skill` | `design-taste-frontend` | Anti-slop skill for landing pages, portfolios and redesigns. Reads the brief, infers the right direction, ships interfaces that don't look templated. Audit-first on redesigns. |
-| `soft-skill` | `high-end-visual-design` | The exact fonts, spacing, shadows, card structures and animations that make a site feel expensive — and a block list of the defaults that make AI design look cheap. |
 | `redesign-skill` | `redesign-existing-projects` | Audits an existing site, identifies generic AI patterns, applies high-end standards without breaking functionality. Framework-agnostic. |
-| `minimalist-skill` | `minimalist-ui` | Clean editorial interfaces: warm monochrome, typographic contrast, flat bento grids, muted pastels. No gradients, no heavy shadows. |
 | `brutalist-skill` | `industrial-brutalist-ui` | Swiss typographic print fused with military terminal: rigid grids, extreme type scale contrast, analog degradation. For dashboards and editorial sites that should feel like declassified blueprints. |
 | `stitch-skill` | `stitch-design-taste` | Generates agent-friendly `DESIGN.md` files for Google Stitch — strict typography, calibrated color, asymmetric layouts. |
 | `imagegen-frontend-web` | same | Image direction for premium website design references. One horizontal image per section — eight sections means eight images, never one compressed board. |
